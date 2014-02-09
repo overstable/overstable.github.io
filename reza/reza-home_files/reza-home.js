@@ -5,5 +5,5 @@ setTransparentGifURL('Media/transparent.gif');function applyEffects()
 function hostedOnDM()
 {return false;}
 function onPageLoad()
-{loadMozillaCSS('Welcome_files/WelcomeMoz.css')
-adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');fixAllIEPNGs('Media/transparent.gif');fixupIECSS3Opacity('id2');applyEffects()}
+{loadMozillaCSS('reza-home_files/reza-homeMoz.css')
+fixAllIEPNGs('Media/transparent.gif');fixupIECSS3Opacity('id1');applyEffects()}
